@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="card">
+      <div class="searchbox">
+        <input
+          type="text"
+          title="city"
+          placeholder="Enter city name:"
+          id="title"
+        />
+        <button class="search" id="b1" title="search">
+          <img
+            src="images/search.png"
+            class="search-image"
+            alt="search-image"
+          />
+        </button>
+      </div>
+      <div class="error">
+        <h1 class="error">Incorrect City Name</h1>
+      </div>
+      <div class="visibility">
+        <div>
+          <img
+            src="images/rain.png"
+            alt="rain-image"
+            class="weather-image"
+            id="weather-image"
+          />
+          <h1 class="temperature" id="temp">25<sup>o</sup>c</h1>
+          <h1 class="city" id="city">Hyderabad</h1>
+        </div>
+        <div class="wind-humidity">
+          <div class="wind">
+            <img src="images/wind.png" alt="wind-image" class="wind-image" />
+            <div class="wind-header">
+              <h2 class="percentage" id="wind">1.98km/h</h2>
+              <h2 class="type">Wind Speed</h2>
+            </div>
+          </div>
+          <div class="humidity">
+            <img
+              src="images/humidity.png"
+              alt="humidity-image"
+              class="humidity-image"
+            />
+            <div class="humidity-header">
+              <h2 class="percentage" id="humidity">20%</h2>
+              <h2 class="type">Humidity</h2>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
