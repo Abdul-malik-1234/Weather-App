@@ -14,7 +14,7 @@ body {
 div.card {
     width: 50%;
     padding: 1%;
-    box-shadow: -0.1rem 0.1rem 0.5rem 0.5rem grey;
+    box-shadow: -0.1rem 0.1rem 0.5rem 0.5rem rgb(44, 145, 246);
     text-align: center;
     border-radius: 1.0rem;
     background-color: rgba(23, 11, 245, 0.822);
@@ -233,4 +233,16 @@ div.visibility {
     div.wind-humidity {
         gap: 0.7rem;
     }
+}
+.card{
+    background:url('/images/cardlayout.jpg');
+}
+html,body{
+    background-image: url('images/weather.jpg');
+    height:100%;
+    width:100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
 }
