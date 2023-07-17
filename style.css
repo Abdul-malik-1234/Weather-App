@@ -17,7 +17,7 @@ div.card {
     box-shadow: -0.1rem 0.1rem 0.5rem 0.5rem rgb(44, 145, 246);
     text-align: center;
     border-radius: 1.0rem;
-    background-color: rgba(23, 11, 245, 0.822);
+    /* background-color: rgba(23, 11, 245, 0.822); */
 }
 
 div.searchbox {
@@ -234,7 +234,7 @@ div.visibility {
         gap: 0.7rem;
     }
 }
-.card{
+div.card{
     background:url('/images/cardlayout.jpg');
 }
 html,body{
